@@ -33,3 +33,5 @@ git diff : comando que mostra todos os conflitos entre arquivos.
 git diff [nome-arquivo.extensao] : comando que exibe as diferenças entre o arquivo original e o alterado.
 
 git restore [nome-arquivo.extensao] : restaura o conteudo do arquivo para o correspondente da origem, caso seja um novo arquivo o mesmo é excluido. 
+
+git reset (--soft | --hard | --mixed) [ID_Commit]: retorna o repositorio para a versao do commit passado, podendo manter ou nao os arquivos alterados dependento do comando utilizado.
